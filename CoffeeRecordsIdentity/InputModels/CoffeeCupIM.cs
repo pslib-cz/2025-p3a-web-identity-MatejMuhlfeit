@@ -10,5 +10,9 @@ namespace CoffeeRecordsIdentity.InputModels
         public string UserName { get; set; } = string.Empty;
         [Display(Name = "Id of Machine")]
         public int MachineNo { get; set; }
+        [Required]
+        [Display(Name = "Id of User")]
+        public int UserId { get; set; }
+
     }
 }
